@@ -1,0 +1,16 @@
+h2 {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+
+.contacto-cliente {
+    display:flex;
+}
+
+.opinion {
+    width: 50%;
+}

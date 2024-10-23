@@ -1,6 +1,4 @@
 Se trata de un sitio Web de e-commerce dinámico e interactivo, donde se vende todo tipo de ropa.
-Que consume datos de una API para mostrar los productos
-En la página habrá un carrito de compras, para que puedan realizar su compra
 
 En el header colocamos el logo de la empresa
 

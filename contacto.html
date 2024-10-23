@@ -3,27 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./estilos/styles_header_footer.css">
+    <link rel="stylesheet" href="./estilos/style_contacto.css">
     <title>Contacto </title>
 </head>
 <body>
-    <h1>Formulario de Contacto </h1>
-    <form action="https://formspree.io/f/xqakzpbv" method="POST">
-        <fieldset>
-            <legend>Datos Personales</legend>
-            <legend>Datos Personales</legend>
-            <label for="firstname">Nombre: </label>
-            <input size="30" type="text" name="firstname" placeholder="Ingrese su nombre aquí . . .">
-            <label for="lastname">Apellido: </label>
-            <input size="30" type="text" name="firstname" placeholder="Ingrese su apellido aquí . . .">    
-            <label for="email">Mail: </label>
-            <input type="email" name="email" placeholder="Ingrese su mail aquí . . . ">
-        </fieldset>
-        <label for="comentarios">Comentarios: </label> 
-        <textarea name="comentarios" rows="5" cols="30" placeholder="Ingrese su comentario aquí . . ."></textarea>
-
-
-        <button type="submit">Enviar</button>
-    </form>
+    <header>
+        <div class="logo-titulo">
+            <img class="logo" src="imagenes/th (3).jfif" alt="logo" width="50" hight="50">
+            <h1>Tienda Online</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./resenas.html">Reseñas</a></li>
+                <li><a href="./contacto.html">Formulario de Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contacto-cliente">
+            <section>
+                <h2>Formulario de Contacto </h2>
+                <form action="https://formspree.io/f/xqakzpbv" method="POST">
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <label for="firstname">Nombre: </label>
+                        <input size="30" type="text" name="firstname" placeholder="Ingrese su nombre aquí . . ." required> <br>
+                        <label for="lastname">Apellido: </label>
+                        <input size="30" type="text" name="firstname" placeholder="Ingrese su apellido aquí . . ."><br>    
+                        <label for="email">Mail: </label>
+                        <input type="email" name="email" placeholder="Ingrese su mail aquí . . . " required> <br>
+                    </fieldset>
+                    <label for="comentarios">Comentarios: </label> 
+                    <textarea name="comentarios" rows="5" cols="30" placeholder="Ingrese su comentario aquí . . ." required></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+            <section class="opinion">
+                <p>Recibimos su opinión, sugerencia o comentario de la atención que recibió. <br> Nos interesa saber si esta satisfecho con el tiempo y forma de entrega. <br> También agradeceríamos si nos deja una reseña de lo que le parecieron el o los artículos que recibió. <br> Frente a cualquier duda o comentario no dude en contactarnos. <br> Proximamente verá su comentario en la página de Reseñas. Gracias </p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <small>Copyright 2024</small> <br>
+        <div class="redes-sociales">
+            <a href="https://wa.link/2qo1b2"><i class="fa-brands fa-whatsapp" style="font-size:20px"></i></a>
+            <a href="https://www.instagram.com/andreallanes.78/profilecard/?igsh=bzJpbjk0bzIyMGV1">
+                <i class="fa-brands fa-instagram" style="font-size:20px"></i>
+            </a>
+            <a href="https://www.facebook.com/share/NyEHwFt6qyBSPikB/">
+                <i class="fa-brands fa-facebook" style="font-size:20px"></i>
+            </a>
+            <a href="https://linkedin.com/">
+                <i class="fa-brands fa-linkedin" style="font-size:20px"></i>
+            </a>
+            <a href="http://twitter.com/">
+                <i class="fa-brands fa-twitter" style="font-size:20px"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/bb94350652.js" crossorigin="anonymous">
+    </script>
 </body>
 </html>
