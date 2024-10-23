@@ -2,17 +2,8 @@ main {
     width:100%;
     background: radial-gradient(circle , #EE82EE, white
     );
+    display: flex;
     justify-content:space-evenly;
-}
-
-
-h2 {
-    font-size: 1rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    margin-left: 0.5rem;
-    margin-top: 1rem;
 }
 
 .descripcion {
@@ -31,5 +22,9 @@ h2 {
     text-align:center;
     justify-content: space-evenly;
     margin: 0.5rem;
+    border: 1px solid #f107f1;
 }
 
+.ropa_padding {
+    padding: 10px;
+}
