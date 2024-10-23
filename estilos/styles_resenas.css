@@ -1,28 +1,46 @@
+body {
+    min-height: 100vh;
+}
+
 main {
     width:100%;
-    background: radial-gradient(circle , #EE82EE, white
-    );
+    background: radial-gradient(circle , #EE82EE, white);
+    justify-content: center;
 }
 
-
-h2 {
-    font-size: 1rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    margin-left: 0.5rem;
-    margin-top: 1rem;
+.container {
+    width: 100%;
+    display: grid;  
+    gap:1em;
+    justify-content: space-around;
+    align-content: space-around;
 }
 
-p {
+.opinion {
     font-family: "Poppins", sans-serif;
-    font-weight: 100;
+    font-weight: 250;
     font-style: normal;
     font-size: 0.8rem;
-    margin-left: 0.5rem;
+    text-align:start;
+    padding: 4px;
+    color:#f107f1;
+    border: 1px solid #f107f1;
 }
 
-section {
-    border: 1px solid #000000;
-    margin: 1rem;
+@media screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
