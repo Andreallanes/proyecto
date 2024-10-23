@@ -1,14 +1,41 @@
 main {
     width:100%;
-    background: radial-gradient(circle , #EE82EE, white
-    );
+    background: radial-gradient(circle , #EE82EE, white);
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: "Poppins", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    font-size: 0.5rem;
+    text-align:start;
+    color:#f107f1;
 }
 
 .contacto-cliente {
-    display:flex;
+    border: 1px solid #f107f1;
+    margin: 10px;
 }
 
-.opinion {
-    width: 50%;
+.informacion {
+    border: 1px solid #f107f1;
+    margin: 10px;
+    text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
