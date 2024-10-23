@@ -1,3 +1,10 @@
+main {
+    width:100%;
+    background: radial-gradient(circle , #EE82EE, white
+    );
+}
+
+
 h2 {
     font-size: 1rem;
     font-family: "Poppins", sans-serif;
@@ -14,3 +21,4 @@ h2 {
 .opinion {
     width: 50%;
 }
+

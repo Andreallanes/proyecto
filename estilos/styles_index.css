@@ -1,10 +1,11 @@
 p {
     font-family: "Poppins", sans-serif;
-    font-weight: 100;
+    font-weight: 250;
     font-style: normal;
     font-size: 0.8rem;
     text-align:start;
     padding: 4px;
+    color:#f107f1;
 }
 
 main {
@@ -16,15 +17,10 @@ main {
 }
 
 section {
-    border: 1px solid #000000;
-    margin: 1rem;
-}
-
-.ubicacion {
-    border: 0px;
+    padding: 0.3rem;
 }
 
 .remera,
 .mapa {
-    padding: 10px;
+    padding: 8px;
 }
