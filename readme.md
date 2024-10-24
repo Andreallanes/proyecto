@@ -15,7 +15,7 @@ En el main de la página de reseñas vamos colocando las opiniones que nos enví
 
 En el main de la página de contactos tenemos el formulario de contacto para que nos envíen sus opiniones.
 
-Header, footer, el main de Inicio y el main de Productos lo elaboramos en flexbox, utilizando flex-wrap: wrap para que se ajuste la vista a todos los dispositivos.
+Header, footer, el main de Inicio y el main de Productos fueron armados en Flexbox, utilizando flex-wrap: wrap para que se ajuste la vista a todos los dispositivos.
 
-En el main de Reseñas y en el de Formulario de Contacto utilice grid y media queries para que sea adecuado a la vista de todos los dispositivos.
+En el main de Reseñas y en el de Formulario de Contacto se utilizo Grid y Media Queries para que sea adecuado a la vista de todos los dispositivos.
 
