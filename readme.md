@@ -1,3 +1,6 @@
+Sitio creado por Andrea Llanes, mail de contacto: llanesandrea0@gmail.com
+Creado en octubre de 2024 - durante el curso de Front - End JS - Talento Tech - Agencia de Habilidades para el Futuro - Buenos Aires aprende
+
 Se trata de un sitio Web de e-commerce dinámico e interactivo, donde se vende todo tipo de ropa.
 
 En el header colocamos el logo de la empresa,nombre y un menu de navegación.
