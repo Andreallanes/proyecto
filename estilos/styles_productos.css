@@ -14,6 +14,14 @@ main {
     color: #f107f1;  
 }
 
+.indicacion {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.6rem; 
+    color: #f107f1;      
+}
+
 .articulos {
     display:flex;
     justify-content: space-around;
